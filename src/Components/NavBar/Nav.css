@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgba(192, 192, 192, 0);
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.ul1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list1 {
+  list-style-type: none;
+  font-family: sans-serif;
+  margin-left: 15px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: black;
+}
+
+.acc1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acclist1 {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.acclink1 {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 850px) {
+  .ul1 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.resNav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.ul2 {
+  width: 100%;
+  height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
