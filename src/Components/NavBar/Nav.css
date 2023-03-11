@@ -38,6 +38,13 @@
 .link1 {
   text-decoration: none;
   color: black;
+  transition: all 0.5s;
+}
+
+.link1:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  padding: 10px 5px;
+  border-radius: 5px;
 }
 
 .acc1 {
@@ -54,6 +61,13 @@
 .acclink1 {
   text-decoration: none;
   color: black;
+  transition: all 0.5s;
+}
+
+.acclink1:hover {
+  background-color: rgba(0, 0, 0, 0.036);
+  padding: 10px 5px;
+  border-radius: 5px;
 }
 
 @media (max-width: 850px) {

@@ -48,9 +48,35 @@
 
 .orderbtn {
   background-color: transparent;
-  border: 2px solid #fff;
-  padding: 3px 50px;
+  border: 2px solid transparent;
+  padding: 10px 90px;
+  margin-right: 40px;
   color: #fff;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.ob {
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.lb {
+  background-color: rgba(255, 255, 255, 0.651);
+  color: black;
+}
+
+.scdd {
+  text-decoration: underline;
+}
+
+@media (max-width: 850px) {
+  .icns {
+    display: flex;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 150px;
+  }
 }
